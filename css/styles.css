@@ -1,0 +1,41 @@
+p {
+    color: brown;
+}
+
+p.doggo {
+    color: blue;
+}
+
+p#doggo-1 {
+    color: green;
+}
+/*
+This is the section stuff
+*/
+section {
+    border: 1px solid #000;
+    margin: 8px;
+}
+
+a:link { /* unvisited link */
+    color: aliceblue;
+    text-decoration: none;
+}
+a:visited { /* visited link */
+    color: darkblue;
+    text-decoration: line-through;
+}
+a:hover { /* mouse over link */
+    color: lightblue;
+    text-decoration: underline;
+}
+a:active { /* mouse click link */
+    color: yellow;
+}
+
+h1 {
+    font-size: 500%;
+}
+h2 {
+    font-size: 2em;
+}
